@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root{font-family:'DM Sans',Arial,sans-serif;color:#222525;background:#f5f4ef;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}body{margin:0}.page{max-width:1220px;margin:auto;padding:0 46px}
+.topbar{display:flex;align-items:center;justify-content:space-between;min-height:90px;border-bottom:1px solid #bfc3be}
+.wordmark{font-family:'Space Grotesk',Arial,sans-serif;font-size:16px;font-weight:700}.wordmark span{color:#df765d;padding:0 8px}
+.status{display:flex;gap:9px;align-items:center;font-size:12px;text-transform:uppercase;letter-spacing:.12em}.status i{width:7px;height:7px;border-radius:50%;background:#999}.status--online i{background:#4a9273}.status--offline i{background:#dc745b}
+.hero{padding:92px 0 87px;max-width:930px}.eyebrow,.section-heading,.module-number,.module-status,footer,.hero-meta{font-size:12px;letter-spacing:.09em}
+.eyebrow{font-weight:700;text-transform:uppercase;color:#d46c54}h1{font-family:'Space Grotesk',Arial,sans-serif;font-size:clamp(54px,8vw,116px);font-weight:600;letter-spacing:-.075em;line-height:.99;margin:22px 0 26px}
+h1 em{font-style:normal;color:#d46c54}.hero p{max-width:610px;line-height:1.75;color:#595f5a;font-size:17px}.hero-meta{display:flex;gap:24px;color:#707771;text-transform:uppercase;margin-top:32px;flex-wrap:wrap}
+.modules{border-top:2px solid #262c29}.section-heading{padding:25px 0 28px;display:flex;justify-content:space-between;color:#6e756d;font-weight:700}
+.module{display:grid;grid-template-columns:72px 1fr 148px;gap:20px;align-items:start;padding:30px 0;border-top:1px solid #cdd1ca}.module h2{font-family:'Space Grotesk',Arial,sans-serif;letter-spacing:-.045em;font-size:27px;margin:0 0 8px;font-weight:600}.module p{color:#6c736e;line-height:1.55;margin:0}.module-number{font-weight:700;color:#d46c54;padding-top:7px}.module-status{text-align:right;text-transform:uppercase;color:#798079;padding-top:8px}
+footer{border-top:1px solid #cdd1ca;display:flex;justify-content:space-between;gap:20px;color:#8a8f89;padding:25px 0 40px;margin-top:42px}
+@media(max-width:720px){.page{padding:0 22px}.topbar{min-height:72px}.hero{padding:65px 0 65px}h1{font-size:clamp(52px,10vw,78px)}.module{grid-template-columns:40px 1fr;gap:12px}.module-status{grid-column:2;text-align:left;padding-top:0}.section-heading{gap:10px}footer{flex-direction:column}}

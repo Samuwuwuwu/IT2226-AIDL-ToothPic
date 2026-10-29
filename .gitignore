@@ -1,0 +1,50 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / tests
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Web
+node_modules/
+.vite/
+apps/web/dist/
+*.tsbuildinfo
+
+# Datasets and generated models
+/data/**
+!/data/README.md
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.keras
+*.pkl
+*.joblib
+*.zip
+*.7z
+*.tar
+ml/artifacts/
+ml/runs/
+ml/outputs/
+ml/checkpoints/
+outputs/
+reports/generated/
+
+# Local
+.dev/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
