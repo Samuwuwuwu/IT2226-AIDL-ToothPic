@@ -1,30 +1,18 @@
 # Dataset register
 
-## Assigned dataset — UNVERIFIED
-The IT2226 dental brief lists a 4,375-image Oral Image Dataset by `jhirshaikh` with six classes:
+## Shared school dataset
 
-| Class | Brief count |
+The dataset contains 4,375 images in six classes:
+
+| Canonical class | Files |
 | --- | ---: |
-| Calculus | 1,296 |
-| Hypodontia | 1,251 |
-| Tooth discoloration | 1,058 |
-| Normal | 286 |
-| Mouth ulcer | 265 |
-| Caries | 219 |
+| calculus | 1,296 |
+| caries | 219 |
+| hypodontia | 1,251 |
+| mouth_ulcer | 265 |
+| normal | 286 |
+| tooth_discoloration | 1,058 |
 
-The exact public download and archive contents have **not** been verified. Do not silently substitute a similarly named dataset.
+The prepared upload contains the 3,795 train/validation/test images, arranged by split and canonical class, plus a package manifest, fixed splits, class mapping and source lock.
 
-First: obtain the exact archive from the lecturer, verify class directories, record licence/version/checksum, check duplicates and subject leakage, then decide train/validation/test splits. The `aidl_ml.audit` tool only counts files by folder.
-
-## Optional datasets
-Additional localized-caries or segmentation datasets are candidates, not approved inputs or implemented features. Log their actual labels, licences and provenance separately.
-
-## Per-dataset checklist
-| Field | Status |
-| --- | --- |
-| Exact URL, version, acquisition date | TODO |
-| Licence and usage permissions | TODO |
-| Image count and label structure | TODO |
-| Image quality and duplicates | TODO |
-| Data splitting / patient leakage | TODO |
-| Experiments and owner | TODO |
+The package excludes 459 exact duplicate copies and 121 records with conflicting labels. There are no exact-hash overlaps across train, validation and test.
