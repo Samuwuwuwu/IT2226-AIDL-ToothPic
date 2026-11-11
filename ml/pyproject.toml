@@ -7,7 +7,7 @@ name = "aidl-ml"
 version = "0.1.0"
 description = "Shared ML utilities for IT2226 Group 7"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["Pillow>=10"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

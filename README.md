@@ -2,7 +2,7 @@
 
 Dental-health project for Singapore: guided photo capture, image screening, understandable explanations, indicative treatment costs/subsidies, and clinic finding.
 
-**Current stage: initial scaffold.** The shared dataset package is prepared; model training, agent tools, clinical collaborator and product name are not confirmed or implemented.
+**Current stage: initial scaffold.** The group dataset is in shared Drive; model training, agent tools, clinical collaborator and product name are not confirmed or implemented.
 
 ## Windows quick start
 
@@ -35,6 +35,6 @@ AGENTS.md            Coding and commit conventions
 
 See [ML setup](ml/README.md), [architecture](docs/ARCHITECTURE.md), [dataset register](docs/DATASETS.md), and [team contributions](docs/CONTRIBUTING.md).
 
-Upload `data/processed/school_oral_v1_training_v1.zip` once to the group Drive `dataset/` folder and use that copy in Colab. Keep raw images and checkpoints out of Git; teammates log substantive AI assistance in their own commits.
+Training data is kept in the group Google Drive; image datasets and model checkpoints are not committed to Git. Teammates log substantive AI assistance in their own commits.
 
 Current backend contains a real health endpoint; the frontend only displays the planned features and actual API connection. It does not pretend screening or tools exist yet. The assignment documents conflict on assessment weeks; confirm with the lecturer.
